@@ -5,9 +5,10 @@
     "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "markdown-it": ["./node_modules/.pnpm/node_modules/markdown-exit"],
+    },
   },
-  "exclude": [
-    "**/*.md"
-  ]
+  "exclude": ["**/*.md"],
 }
